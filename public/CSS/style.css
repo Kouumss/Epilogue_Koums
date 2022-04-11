@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.container1 {
+    background: url("/public/images/banner.jpg") no-repeat;
+    background-size: cover;
+    height: 70vh;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.epil {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.container1 hr {
+    width: 40%;
+    margin: auto;
+}
+
+.un {
+    color: black;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.btn1 {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+    width: 8rem;
+    height: 2rem;
+}
+
+.card-grid {
+    display: grid;
+    grid: repeat(2, 1fr)/repeat(2, 1fr);
+    text-align: center;
+    grid-gap: 2vw;
+    width: 80%;
+    margin: auto;
+}
+
+.img-grid img {
+    width: 100%;
+}
+
+.cd1 {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    letter-spacing: 0.1rem;
+    width: 8rem;
+    height: 2rem;
+}
+
+
+
+.img-grid h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+
+
+.img-grid {
+    position: relative;
+}
+
+.texte1 {
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+
+.magna{
+padding: 0 200px;
+}
+.magna i {
+    font-size: 70px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.magna p {
+    padding: 0 30px;
+}
+
+.uno{
+padding: 50px 0;
+}
+
+.magna h1{
+padding: 20px 0;
+}
+
+footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+row-gap: 10px;
+}
+
+.started{
+text-align: center;
+padding: 0 300px;
+}
+
+.started>hr{
+margin: 50px auto;
+width: 25%;
+
+}
+
+.started h1, p{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.social i{
+margin: 0 10px;
+}
